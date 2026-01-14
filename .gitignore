@@ -1,0 +1,19 @@
+# Godot generated files
+.import/
+export/
+*.import
+TestResults/
+
+# Mono / C#
+.mono/
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userprefs
+
+# OS junk
+.DS_Store
+Thumbs.db

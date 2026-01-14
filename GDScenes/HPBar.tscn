@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="StyleBoxLine" id=3]
+color = Color( 0, 1, 0.0313726, 1 )
+grow_begin = 0.0
+grow_end = 0.0
+thickness = 3
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.0117647, 0.231373, 0.00392157, 1 )
+shadow_size = 1
+
+[node name="ProgressBar" type="ProgressBar"]
+margin_right = 16.0
+margin_bottom = 3.0
+custom_styles/fg = SubResource( 3 )
+custom_styles/bg = SubResource( 4 )
+max_value = 10.0
+step = 1.0
+value = 10.0
+percent_visible = false
